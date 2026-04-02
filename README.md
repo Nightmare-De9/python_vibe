@@ -1,57 +1,64 @@
-# ⚡ python_vibe
+# ⚡ PYTHON_VIBE
 
 <div align="center">
 
 ```
-asci--
+
+██████╗░██╗░░░██╗████████╗██╗░░██╗░█████╗░███╗░░██╗  ██╗░░░██╗██╗██████╗░███████╗
+██╔══██╗╚██╗░██╔╝╚══██╔══╝██║░░██║██╔══██╗████╗░██║  ██║░░░██║██║██╔══██╗██╔════╝
+██████╔╝░╚████╔╝░░░░██║░░░███████║██║░░██║██╔██╗██║  ╚██╗░██╔╝██║██████╦╝█████╗░░
+██╔═══╝░░░╚██╔╝░░░░░██║░░░██╔══██║██║░░██║██║╚████║  ░╚████╔╝░██║██╔══██╗██╔══╝░░
+██║░░░░░░░░██║░░░░░░██║░░░██║░░██║╚█████╔╝██║░╚███║  ░░╚██╔╝░░██║██████╦╝███████╗
+╚═╝░░░░░░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚══╝  ░░░╚═╝░░░╚═╝╚═════╝░╚══════╝
+
 ```
 
-**make your boring python scripts look like a fucking movie** 🎬
+**Make your boring Python scripts look like a fucking movie** 🎬
 
-[![PyPI version](https://img.shields.io/pypi/v/pyvibe?color=ff6b6b&style=flat-square)](https://pypi.org/project/pyvibe)
-[![Python](https://img.shields.io/pypi/pyversions/pyvibe?color=ffd93d&style=flat-square)](https://pypi.org/project/pyvibe)
+[![PyPI version](https://img.shields.io/pypi/v/python-vibe?color=ff6b6b\&style=flat-square)](https://pypi.org/project/python-vibe)
+[![Python](https://img.shields.io/pypi/pyversions/python-vibe?color=ffd93d\&style=flat-square)](https://pypi.org/project/python-vibe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00b4d8?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/yourname/pyvibe?color=ff9f43&style=flat-square)](https://github.com/yourname/pyvibe/stargazers)
-[![Downloads](https://img.shields.io/pypi/dm/pyvibe?color=a29bfe&style=flat-square)](https://pypi.org/project/pyvibe)
+[![Stars](https://img.shields.io/github/stars/Nightmare-De9/python_vibe?color=ff9f43\&style=flat-square)](https://github.com/Nightmare-De9/python_vibe/stargazers)
+[![Downloads](https://img.shields.io/pypi/dm/python-vibe?color=a29bfe\&style=flat-square)](https://pypi.org/project/python-vibe)
 
 </div>
 
 ---
 
-## 🤔 what is this
+## 🤔 WHAT IS THIS
 
-you write python. your terminal output looks like dogwater.  
-**pyvibe fixes that. with zero effort.**
+You write Python. Your terminal output looks like dogwater.
+**python_vibe fixes that. With zero effort.**
 
-two lines. that's it.
+Two lines. That’s it.
 
 ```python
-import pyvibe
-pyvibe.enable()
+import python_vibe
+python_vibe.enable()
 ```
 
-now every print, every loop, every error, every table — automatic cinema.  
-no rewrites. no boilerplate. your existing code just... glows up.
+Now every print, every loop, every error, every table — automatic cinema.
+No rewrites. No boilerplate. Your existing code just... glows up.
 
 ---
 
-## 📦 install
+## 📦 INSTALL
 
 ```bash
-pip install pyvibe
+pip install python-vibe
 ```
 
-want the full dashboard mode (textual TUI)?
+Want the full dashboard mode (Textual TUI)?
 
 ```bash
-pip install pyvibe[full]
+pip install python-vibe[full]
 ```
 
 ---
 
-## 🚀 quick start
+## 🚀 QUICK START
 
-### before pyvibe 😭
+### BEFORE python_vibe 😭
 
 ```python
 data = {"name": "rahul", "score": 99, "city": "bhopal"}
@@ -63,11 +70,13 @@ for i in range(100):
 # [nothing. just cursor blinking. you questioning your life choices.]
 ```
 
-### after pyvibe 🔥
+---
+
+### AFTER python_vibe 🔥
 
 ```python
-import pyvibe
-pyvibe.enable()
+import python_vibe
+python_vibe.enable()
 
 data = {"name": "rahul", "score": 99, "city": "bhopal"}
 print(data)
@@ -77,167 +86,166 @@ print(data)
 # │  rahul  │   99    │  bhopal    │
 # └─────────────────────────────────┘
 
-for i in pyvibe.track(range(100)):
+for i in python_vibe.track(range(100)):
     process(i)
 # ⠿ Processing  ████████████░░░░  73%  [0:00:02] item 73/100
 ```
 
 ---
 
-## 🎬 demo
+## 🎬 DEMO
 
-> 📸 **[GIF PLACEHOLDER]** — imagine a dark terminal with neon green animations, animated progress bars, beautiful tables, glowing error panels. that's what this looks like. gif coming soon, too busy shipping.
-
----
-
-## 📋 table of contents
-
-- [install](#-install)
-- [quick start](#-quick-start)
-- [themes](#-theme-gallery)  
-- [features](#-features)
-- [api reference](#-api-reference)
-- [why it slaps](#-why-it-slaps)
-- [examples](#-examples)
-- [contributing](#-contributing)
+> 📸 **[GIF PLACEHOLDER]** — imagine a dark terminal with neon green animations, animated progress bars, beautiful tables, glowing error panels.
+> yeah. that’s this. gif coming soon.
 
 ---
 
-## 🎨 theme gallery
+## 📋 TABLE OF CONTENTS
 
-pyvibe ships with 10 handcrafted themes. pick your vibe.
+* Install
+* Quick Start
+* Theme Gallery
+* Features
+* API Reference
+* Why It Slaps
+* Examples
+* Contributing
 
-| theme | description | feel |
-|-------|-------------|------|
-| `cyber` | neon blue + electric green, dark bg | hacker movie protagonist |
-| `masala` | warm oranges, saffron, deep reds | chai, spice, chaos. very desi. |
-| `chai_mode` | earthy browns, cream, soft gold | 2am chai and chill |
-| `neon` | full rgb overload, dark void bg | synthwave fever dream |
-| `retro` | amber/green monochrome CRT vibes | your grandpa's terminal (cool version) |
-| `dracula` | purple, pink, clean. the classic | every dev's comfort food |
-| `ocean` | cool blues, teals, calm whites | productive, clean, focused |
-| `desi_chaos` | random colour per run. pure anarchy | for when you've stopped caring |
-| `minimal` | no colors. just clean structure | presentation mode, boss walked in |
-| `midnight` | deep navy + soft lavender | 3am grind, lofi beats, shipping |
+---
+
+## 🎨 THEME GALLERY
+
+python_vibe ships with 10 handcrafted themes. pick your vibe.
+
+| theme        | description                 | feel                     |
+| ------------ | --------------------------- | ------------------------ |
+| `cyber`      | neon blue + electric green  | hacker movie protagonist |
+| `masala`     | warm oranges, saffron, reds | chai, spice, chaos       |
+| `chai_mode`  | earthy browns, soft gold    | 2am chai and chill       |
+| `neon`       | rgb overload                | synthwave fever dream    |
+| `retro`      | amber/green CRT vibes       | old-school cool          |
+| `dracula`    | purple + pink               | dev classic              |
+| `ocean`      | cool blues                  | clean + focused          |
+| `desi_chaos` | random colours              | pure anarchy             |
+| `minimal`    | no colors                   | boss walked in           |
+| `midnight`   | navy + lavender             | 3am grind                |
 
 ```python
-pyvibe.set_theme("masala")  # ☕ desi mode activated
-pyvibe.set_theme("cyber")   # 🔵 go full hackerman
-pyvibe.set_theme("chai_mode")  # works best with actual chai
+python_vibe.set_theme("masala")
+python_vibe.set_theme("cyber")
+python_vibe.set_theme("chai_mode")
 ```
 
 ---
 
-## ✨ features
+## ✨ FEATURES
 
-- 🖨️ **auto-pretty print** — dicts, lists, dataframes → instant tables. no code changes.
-- 📊 **smart progress** — `pyvibe.track(iterable)` wraps any loop with a live bar
-- 💥 **cinematic errors** — exceptions get formatted with context, suggestions, syntax highlighted
-- 🎨 **10 themes** — swap vibes with one line
-- 📋 **auto tables** — any list-of-dicts becomes a rich table automatically
-- 🧰 **log takeover** — your `logging` module output gets beautified too
-- ⏱️ **@vibe decorator** — time + log any function with one decorator
-- 🖥️ **live dashboard** — optional TUI dashboard for long-running scripts (needs `[full]`)
-- 🏥 **error doctor** — smart error explanations with hints (stub, improving)
-- ☕ **masala mode** — chai emoji on success, because we're from bhopal and we can
+* 🖨️ **Auto pretty print** — dicts, lists, dataframes → instant tables
+* 📊 **Smart progress** — wrap any loop with `track()`
+* 💥 **Cinematic errors** — styled exceptions with context
+* 🎨 **10 themes** — swap instantly
+* 📋 **Auto tables** — list-of-dicts → table
+* 🧰 **Logging takeover** — beautifies `logging` output
+* ⏱️ **@vibe decorator** — timing + logs
+* 🖥️ **Live dashboard** — optional TUI (`[full]`)
+* 🏥 **Error doctor** — smart hints (WIP)
+* ☕ **Masala mode** — because bhopal
 
 ---
 
-## 📖 api reference
+## 📖 API REFERENCE
 
 ```python
-import pyvibe
+import python_vibe
 
 # core
-pyvibe.enable()                    # turn on the magic
-pyvibe.disable()                   # back to boring (why tho)
-pyvibe.set_theme("cyber")         # change theme anytime
+python_vibe.enable()
+python_vibe.disable()
+python_vibe.set_theme("cyber")
 
 # progress
-for item in pyvibe.track(data, desc="crunching"):
+for item in python_vibe.track(data, desc="crunching"):
     process(item)
 
 # decorators
-@pyvibe.vibe
+@python_vibe.vibe
 def my_function():
     ...
-# auto logs timing, args, return val with style
 
-# manual stuff
-pyvibe.log("something happened")  # styled info log
-pyvibe.success("it worked!")      # ✅ green + celebratory
-pyvibe.warn("hmm")                # ⚠️  warning panel
-pyvibe.error("oh no")             # 💥 error panel
+# logs
+python_vibe.log("something happened")
+python_vibe.success("it worked!")
+python_vibe.warn("hmm")
+python_vibe.error("oh no")
 
 # tables
-pyvibe.table(list_of_dicts)       # render a table directly
-pyvibe.inspect(any_object)        # pretty inspect any object
+python_vibe.table(list_of_dicts)
+python_vibe.inspect(obj)
 
-# dashboard (needs pyvibe[full])
-pyvibe.start_dashboard()
+# dashboard
+python_vibe.start_dashboard()
 ```
 
 ---
 
-## 🔥 why it slaps
+## 🔥 WHY IT SLAPS
 
-**rich is great.** but you have to rewrite your whole print logic.  
-**loguru is cool.** but it's just logging.  
-**textual is amazing.** but it's a whole framework.
+**rich is great** — but you rewrite everything
+**loguru is cool** — but it’s just logs
+**textual is powerful** — but it’s a framework
 
-pyvibe is different. it wraps everything **automatically**.  
-your existing code. zero changes. maximum vibe.
+**python_vibe → zero effort, instant upgrade**
 
-it's the library you install at 2am and forget to remove because why would you.
+your existing code. no changes. just vibes.
 
 ---
 
-## 📁 examples
+## 📁 EXAMPLES
 
 check the `examples/` folder:
 
-- `simple_script.py` — basic before/after demo  
-- `data_pipeline.py` — pandas pipeline with auto-table  
-- `training_loop.py` — fake ML training loop, looks real  
-- `fastapi_demo.py` — middleware for request logging
+* simple_script.py
+* data_pipeline.py
+* training_loop.py
+* fastapi_demo.py
 
 ```bash
 cd examples
-python training_loop.py  # run this one first. trust me.
+python training_loop.py
 ```
 
 ---
 
-## 🤝 contributing
+## 🤝 CONTRIBUTING
 
 PRs welcome. issues welcome. vibes mandatory.
 
 ```bash
-git clone https://github.com/yourname/pyvibe
-cd pyvibe
+git clone https://github.com/Nightmare-De9/python_vibe
+cd python_vibe
 pip install -e ".[dev]"
 pytest tests/
 ```
 
-ideas for contribution:
-- new themes (especially regional/cultural ones)
-- better error suggestions
-- jupyter notebook support
-- more auto-detect patterns
+ideas:
 
-if you add a theme, name it something fun. no `theme_blue_v2` garbage.
+* new themes
+* better error suggestions
+* jupyter support
+* smarter detection
 
 ---
 
-## 📜 license
+## 📜 LICENSE
 
-MIT. do whatever. just don't remove the chai emoji.
+MIT — do whatever. just don’t remove the chai ☕
 
 ---
 
 <div align="center">
 
-**if this made your terminal less ugly, smash that ⭐**  
-*built with ☕ chai and mild sleep deprivation in bhopal, india*
+**If this made your terminal less ugly, smash that ⭐**
+Built with ☕ chai and sleep deprivation in Bhopal
 
 </div>
+
