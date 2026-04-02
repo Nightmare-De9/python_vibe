@@ -87,13 +87,6 @@ for i in python_vibe.track(range(100)):
 
 ---
 
-## 🎬 DEMO
-
-> 📸 **[GIF PLACEHOLDER]** — imagine a dark terminal with neon green animations, animated progress bars, beautiful tables, glowing error panels.
-> yeah. that’s this. gif coming soon.
-
----
-
 ## 📋 TABLE OF CONTENTS
 
 * Install
