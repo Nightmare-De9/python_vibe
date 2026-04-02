@@ -175,18 +175,6 @@ python_vibe.start_dashboard()
 
 ---
 
-## 🔥 WHY IT SLAPS
-
-**rich is great** — but you rewrite everything
-**loguru is cool** — but it’s just logs
-**textual is powerful** — but it’s a framework
-
-**python_vibe → zero effort, instant upgrade**
-
-your existing code. no changes. just vibes.
-
----
-
 ## 📁 EXAMPLES
 
 check the `examples/` folder:
