@@ -48,12 +48,6 @@ No rewrites. No boilerplate. Your existing code just... glows up.
 pip install python-vibe
 ```
 
-Want the full dashboard mode (Textual TUI)?
-
-```bash
-pip install python-vibe[full]
-```
-
 ---
 
 ## 🚀 QUICK START
